@@ -1,0 +1,107 @@
+@font-face{font-family:proxima;src:url(https://bandaumnikov.ru/fonts/proximanova-light.woff2) format("woff2"),url(https://bandaumnikov.ru/fonts/proximanova-light.woff) format("woff");font-weight:300;font-style:normal;font-display:swap}@font-face{font-family:proxima;src:url(https://bandaumnikov.ru/fonts/proximanova-regular.woff2) format("woff2"),url(fhttps://bandaumnikov.ru/onts/proximanova-regular.woff) format("woff");font-weight:400;font-style:normal;font-display:swap}@font-face{font-family:proxima;src:url(https://bandaumnikov.ru/fonts/proximanova-semibold.woff2) format("woff2"),url(https://bandaumnikov.ru/fonts/proximanova-semibold.woff) format("woff");font-weight:600;font-style:normal;font-display:swap}@font-face{font-family:proxima;src:url(https://bandaumnikov.ru/fonts/proximanova-bold.woff2) format("woff2"),url(https://bandaumnikov.ru/fonts/proximanova-bold.woff) format("woff");font-weight:700;font-style:normal;font-display:swap}
+    *{
+    position: absolute;
+}
+i {
+    margin: 0;
+}
+#baner_1{
+    margin: auto;
+    min-width: 320px;
+    max-width: 900px;
+    width: 100%;
+}
+#baner_1 > .bg{
+    padding: 0;
+    margin: 0;
+    z-index: 0;
+}
+#baner_1 > .book{
+    margin: 0;
+    margin-left: 15px;
+    margin-top: 5px;
+    padding: 0;
+    z-index: 100;
+}
+#baner_1 > .label_stik{
+    margin: 0;
+    margin-top: 3px;
+    margin-left: 146px;
+    padding: 0;
+    z-index: 200;
+}
+#baner_1 > .link{
+    background:#ff0072;
+    color: #ffffff;
+    left: 400px;
+    top: 226px;
+    font-size: 18px;
+    padding:  11px;
+    text-transform: uppercase;
+    text-decoration: none;
+    z-index: 4;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+#baner_1 > .price{
+    z-index: 5;
+    left: 250px;
+    top: 210px;
+    width: 120px;
+    height: 60px;
+}
+#baner_1 > .price > .new_price{
+    margin: 0;
+    width: 120px;
+    display: inline-block;
+    color:#ff0072;
+    font-size: 36px;
+}
+#baner_1 > .price >  .old_price{
+    margin: 0;
+    margin-top: 40px;
+    display: inline-block;
+    font-size: 16px;
+}
+#baner_1 > .price > .old_price::before{
+    border-bottom: 1px solid #ff0072;
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 50%;
+    transform: rotate(10deg);
+}
+.timer{
+    z-index: 6;
+    left: 250px;
+    top: 130px;
+    width: 200px;
+}
+.timers_2{
+    margin-left: 100px
+}
+.timers_3{
+    margin-left: 200px
+}
+.time{
+    padding: 0 20px;
+    top: 60px;
+}
+.clock{
+    z-index: 7;
+    font-size: 50px;
+    letter-spacing: 14px;
+    margin-left: 10px;
+}
+.sale{
+    z-index: 8;
+    top: 105px;
+    left: 260px;
+    width: 270px;
+    font-size: 16px;
+}
+.name_baner{
+    z-index: 9;
+    left: 260px;
+    width: 260px;
+    font-size: 30px;
+}
